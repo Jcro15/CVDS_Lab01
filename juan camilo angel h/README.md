@@ -57,5 +57,6 @@ plt.show()
 
 El modelo de pronóstico de regresión lineal permite hallar el valor esperado de una variable aleatoria a cuando b toma un valor específico.
 
-
  La aplicación de este método implica un supuesto de linealidad cuando la demanda presenta un comportamiento creciente o decreciente, por tal razón, se hace indispensable que previo a la selección de este método exista un análisis de regresión que determine la intensidad de las relaciones entre las variables que componen el modelo.
+
+![](https://lh3.googleusercontent.com/2b9TNAgLhDXAppFVHXC1gPPCxKnF08AzE0cLlbuowNiTAJ8TGoYIosAsq2dQy1kroYe8N3m3IWbrSmzZ9DSakJx-BwCNnCtpsBe9nIX385tiySedPnxeT0YUPzg4eum6NuXM99IIgAGsMkuD9N0-nx2mOSQLDSqlKlBcf86SBLPYNo-RUMmpiXsdpokX9gG_UchYu-cYUOdAYq2YbRln5MeCsEyyArgcyCgZ2vLZnnFdxqrac8J9qTH14-9DcUp0sunlghNFBHwGjQWjcXxtqi-I4fG4rdtMeTG5HKjAnY2YTY7ceboe0BSz6jLMumPoBEdJ2I1zUS7RUnlDbewZKA6YbhlVuAcX6aitDjZPdO0s3VFdhUAxVVjG94fV_uUNLBheeuU6-FRQVaFy64m2KNpcnm9LVYwShIsbfcAActeR2cOrLAdZ0062MC5Eaj5Lcm6dAndyC3NmcPOLvtVWP7hjZLHQzqb-tMxGblSJLxCqcYSYd3mZ7LO9pngvtMkOyWqM9TvLSh7HJsudnQ_pEVgkXKu4G1JEikAVsFrxATycv4aVW_rndLxNc9QzYVtoNo8O9xcAwGYybbROez2zSv9CwBig6QHiW-Vb8IFUv49v8UtVOQHpvdYCL3k-ZmPgvx-CAv8NLMz4GWXksqoGnKJkmz-Xwtw=w818-h610-no)
