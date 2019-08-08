@@ -17,3 +17,5 @@ En Diciembre
 3) PRYE
 4) CNYT
 5) CVDS
+
+![plan de estudios](https://www.escuelaing.edu.co/escuela/planesEstudio/img/sistemas/Malla-curricular-SISTEMAS.png)
