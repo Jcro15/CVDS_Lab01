@@ -7,7 +7,7 @@
 * **ciudad** : Zipaquira
 
 ## intereses
-mis intereses son:\
+mis intereses son:
 
 * escuchar musica como <https://youtu.be/_tcW-j7KFgY>
 * programar
@@ -33,9 +33,6 @@ from sklearn.datasets import load_boston
 
 boston = load_boston()
 #print(boston.DESCR) #descripcion de ese dataset
-
-
-# Formula para minimizar el error cuadratico medio (MCO) $\beta = (X^{T}X)^{-1}X^{T}Y$
 
 
 X = np.array(boston.data[:,5]) #num_habitaciones
