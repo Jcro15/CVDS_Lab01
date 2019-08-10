@@ -1,9 +1,10 @@
+
 ### Hoja de vida
 
 ## datos basicos
 
 * **nombre**: _Juan Camilo Angel Hernandez_
-* **edad** : 19 a駉s
+* **edad** : 19 a帽os
 * **ciudad** : Zipaquira
 
 ## intereses
@@ -41,7 +42,7 @@ Y = np.array(boston.target) #valor medio
 
 plt.scatter(X,Y,alpha=0.3)
 
-#a馻dimos columna de unos (terminos independientes)
+#a帽adimos columna de unos (terminos independientes)
 
 X = np.array([np.ones(506),X]).T
 
@@ -52,9 +53,9 @@ plt.show()
 ~~~
 ![](https://www.researchgate.net/profile/Enrique_Rico-Garcia/publication/262762874/figure/fig2/AS:669959541755915@1536742210539/Figura-3-Regresion-lineal-entre-fotosintesis-medida-y-simulada-con-la-ANN-para-todo-el.png)
 
-El modelo de pron髎tico de regresi髇 lineal permite hallar el valor esperado de una variable aleatoria a cuando b toma un valor espec韋ico.
+El modelo de pron贸stico de regresi贸n lineal permite hallar el valor esperado de una variable aleatoria a cuando b toma un valor espec铆fico.
 
- La aplicaci髇 de este m閠odo implica un supuesto de linealidad cuando la demanda presenta un comportamiento creciente o decreciente, por tal raz髇, se hace indispensable que previo a la selecci髇 de este m閠odo exista un an醠isis de regresi髇 que determine la intensidad de las relaciones entre las variables que componen el modelo.
+ La aplicaci贸n de este m茅todo implica un supuesto de linealidad cuando la demanda presenta un comportamiento creciente o decreciente, por tal raz贸n, se hace indispensable que previo a la selecci贸n de este m茅todo exista un an谩lisis de regresi贸n que determine la intensidad de las relaciones entre las variables que componen el modelo.
 
-![](main.png)
-![](remote.png)
+![](https://lh3.googleusercontent.com/lERJYIIOvFQrGgQgxHk7YlNTmTo3GhRgC6LDt759yPqTqNGfXdcMCldDxUX1QGgfzJOAGB9qf88KEL4zj1aOM-YJWY6ILVw0vFgPevApaA49SOPOSQKF3_gKO5qIt7SDX1Tw-moxp-amFPFCjlXhnrqWiM7ssIG6AL0CYW3YwHmtb_k0w-otIjFqllOU65NybNLOtbt8uTgZeiMDNVx9msJIF2U7TQ3WGBVRsIzSb6A_3uYFBywIbRixYZ5r5cg54dTx3m9l3hdU_SMBZPGegFaL_WhXbF9Bk4-HRP6rr2603NLzd5Uz6bApwDZo5JQCSx3sA4a1-lJAerWTWX0fTefFh6MeZ5zoFOQDJhy1noAHTKSeP4T0gj52b-vR01Uo6pc9tknPBi5TkoG6oq0ZfM0A9gw1dZ62eVMZi1Lp5DmyiCgoAzP3Ir6YoWPcfdihc4XR54EEScO0NqmnCEnfGNGl1ekbmFII9S5KtnlumUZhXt1xYLNr-9DZ94YBmolqpmFtp0i4-BdaWlVGhZ3nSG4yYvVyBCUq6PCycU4HJqzca7IXzDmJwEvxf_xeYd4GQuTrCH1lPoIoGDPEeoSAvkLLqmWEByYbiwWyFCG0huEaw7U9xH-0m7v4eFtIsrjW0wftep99F9rMZnwYDhhqylI5Yd-aDv8=w818-h610-no)
+![](https://lh3.googleusercontent.com/QhVk7bFO18OQARNnOqiEnzenLj9LEidnbc9rIK9bCMeq2aEDlN2dPoGWJFs9N54hUJfI-uX_h6RwVF351Fle1tmmzcqc8K7dksnNtESi0IXIpYymP1pqu8qeBib-SVSug9L6re_6-8uJALwCR_k6dVGLUN3V7hrFxDhFF5IrDA924F449EYdez-ZAQreZ03JjD1M4q8gL96CxgAoZO466nJND7pHBDhmLBuKR5XvWeyVZEHvBZAFG67NSnOK6Pf0NliZkdrSY5qiKL28Bmv6JB_4fbyZUvZ4jw0xz98zFIH6OjjrBsMQpqaloSM0NK553cvdgJM3jx2EgQFgrumTa7bDYBnwfzfukqtorKiCpdTmj3-CqBnh5kII_xMGQy_DZLpzNwqoaaXln6T5ovWqmB_7ICxbdodCiToUfE0KIDtp-WIMoR2cLICqU49U-lxuB3RQDJ0Nq85gAH5e2dKBoPGWb0DEWaC5oBgRoOvTfhUhbSV_9IR2MOAhybgzO7Kkm7KOHDCUjsofold4H-REp6XEBLNesjsrzXF33AQumf-ClbNlspgbJdt7PopCfkQKygNALCGjondzmmiMsPoPNKi2gKjN_0WYUCbJwN54RlaWcL0H1pEWLF9JD1btRF2hHk-fMLg4LT-sAZVqXaf_sr1JcFMZLbc=w754-h422-no)
