@@ -13,8 +13,8 @@ Las materias que estoy cursando este semestre son:
 2.RECO  
 3.AUPN  
 4.FCFI\
-## Imagen Random:
-![](https://i.ytimg.com/vi/-M_j9rMGejI/maxresdefault.jpg)
+## Logo escuela de ingenieros:
+![](https://www.escuelaing.edu.co/uploads/descargables/1110_logotipo_institucional_vm300px.png)
 
 ## Algoritmo de Dijkstra
 El algoritmo de Dijkstra, también llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista. Su nombre alude a Edsger Dijkstra, científico de la computación de los Países Bajos que lo describió por primera vez en 1959.
@@ -39,3 +39,9 @@ La idea subyacente en este algoritmo consiste en ir explorando todos los caminos
                        adicionar(cola,(v, distancia[v]))
 ~~~
 se puede encontrar mas infromacion de este algoritmo en <https://es.wikipedia.org/wiki/Algoritmo_de_Dijkstra>
+
+Git Branching Main
+![](https://github.com/Jcro15/CVDS_Lab01/blob/master/Juan_Camilo_Rojas/gitBranchingMain.png)
+
+Git Branching Remote
+![](https://github.com/Jcro15/CVDS_Lab01/blob/master/Juan_Camilo_Rojas/gitBranchingRemote.png)
