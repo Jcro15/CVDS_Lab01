@@ -20,40 +20,63 @@ En Diciembre
 
 ![plan de estudios](https://www.escuelaing.edu.co/escuela/planesEstudio/img/sistemas/Malla-curricular-SISTEMAS.png)
 
-### Código en c++
+### _Código en c++_
 
 ```
 #include<iostream>
-#include<limits.h>
+#include<cmath>
 #include<stdio.h>
 using namespace std;
-unsigned int lis[500000];
-int n;
-int ways(int i){
-    unsigned int a;
-    if(i==n-1){return 0;}
-    if(i>0 && lis[i-1]>lis[i+1]){
-        a=lis[i];
-        lis[i]=lis[i+1];
-        lis[i+1]=a;
-        return 1+ways(i-1);
-    }
-    if(lis[i]>=lis[i+1]){
-        a=lis[i];
-        lis[i]=lis[i+1];
-        lis[i+1]=a;
-        return 1+ways(i+1);
-    }
-    return ways(i+1);
-}
-int main(){
-    scanf("%d",&n);
-    while(n){
-        for(int i=0;i<n;i++){
-            scanf("%d",&lis[i]);
+int lis[101];
+int dic[100001];
+float precio[100001];
+float matriz[101][100001];
+int main()
+{
+    const unsigned int infinito=pow(2,31);
+    int M,N;
+    scanf("%d %d",&M,&N);
+    int j;
+    while(M || N){
+        for(int i=0;i<M;i++){
+            cin>>lis[i];
         }
-        printf("%d\n",ways(0));
-        scanf("%d",&n);
+        for(int i{0};i<N;i++){
+            cin>>dic[i];
+            cin>>precio[i];
+        }
+
+
+        for(int j=0;j<=N;j++){
+            matriz[M][j]=0;
+        }
+
+        for(int i=M-1;i>-1;i--){
+            j=N-1;
+            matriz[i][N]=infinito;
+            while(i<=j && j>-1){
+                matriz[i][j]=infinito;
+                if(lis[i]==dic[j]){
+                    matriz[i][j]=min(matriz[i+1][j+1]+precio[j],matriz[i][j+1]);
+                }
+
+                else{
+                    matriz[i][j]=min(matriz[i][j+1],matriz[i][j]);
+                }
+                j--;
+            }
+
+
+        }
+        if(matriz[0][0]!=infinito){
+            printf("%.2lf\n", matriz[0][0]);
+
+        }
+        else{
+            printf("Impossible\n");
+
+        }
+        scanf("%d %d",&M,&N);
     }
     return 0;
 }
