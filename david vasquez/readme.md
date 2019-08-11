@@ -86,3 +86,5 @@ int main()
 
 ![Avance de la branch](BRANCH.PNG)
 
+![Avance de remoto](REMOTE.PNG)
+
